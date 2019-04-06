@@ -6,8 +6,5 @@
 def key_for_min_value(hash)
   hash.collect do |name, number|
     if name == number <
-      name
-    else
-      nil
  end
 end
