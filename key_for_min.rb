@@ -3,9 +3,9 @@
 
 #hash = {:blake => 500, :ashley => 2, :adam => 1}
 
-def key_for_min_value(name_hash)
+def key_for_min_value(hash)
   lowest_value = ""
-  name_hash.collect do |name, number|
+  hash.collect do |name, number|
     if name == number < 2
       lowest_value = name
     else
